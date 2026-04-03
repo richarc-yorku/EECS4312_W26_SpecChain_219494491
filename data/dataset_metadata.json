@@ -1,0 +1,28 @@
+{
+    "app_name": "Headspace",
+    "raw_dataset_size": 1000,
+    "cleaned_dataset_size": 976,
+    "collection_method": {
+        "library": "google-play-scraper",
+        "app_id": "com.getsomeheadspace.android",
+        "country": "ca",
+        "language": "en",
+        "sorting": "newest",
+        "target_count": 1000,
+        "notes": "Collected using google-play-scraper's reviews function with batching to fetch up to 1000 reviews."
+    },
+    "cleaning_decisions": [
+        "convert numbers to words",
+        "convert text to lowercase",
+        "remove non a-z & space characters",
+        "remove extra whitespace",
+        "remove stopwords",
+        "lemmatize",
+        "remove empty reviews",
+        "remove non-relevant fields maintaining cleaned_content, score, thumbsUpCount"
+    ],
+    "output_files": {
+        "raw_reviews": "data/reviews_raw.jsonl",
+        "clean_reviews": "data/reviews_clean.jsonl"
+  }
+}
