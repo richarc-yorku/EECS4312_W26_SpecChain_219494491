@@ -19,7 +19,7 @@
         "remove stopwords",
         "lemmatize",
         "remove empty reviews",
-        "remove non-relevant fields maintaining cleaned_content, score, thumbsUpCount"
+        "remove non-relevant fields maintaining id, cleaned_content, score, thumbsUpCount"
     ],
     "output_files": {
         "raw_reviews": "data/reviews_raw.jsonl",

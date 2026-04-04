@@ -47,6 +47,7 @@ def main():
 
     cleaned_reviews = []
     seen_texts = set()
+    reviewId = 1
 
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         for line in f:
@@ -72,10 +73,13 @@ def main():
 
             # Save cleaned review
             cleaned_reviews.append({
+                "id": reviewId,
                 "cleaned_content": cleaned,
                 "score": score,
                 "thumbsUpCount": thumbs_up
             })
+
+            reviewId += 1
 
     # Ensure output directory exists
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
