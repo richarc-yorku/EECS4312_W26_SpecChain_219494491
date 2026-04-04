@@ -2,11 +2,87 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "User complaints of paywalls and pricing",
+      "review_ids": ["4, 7, 14, 17, 31, 32, 52, 54, 100, 129"],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "completely paywalled fifty quid subscription year overpriced worth",
+        "ninety nine nine hundred ninety nine content locked behind paywall",
+        "feature behind paywall",
+        "highly disappointed recommended app specialist find access anything either pay yearly subscription monthly nineteen ninety five discovered uninstalled app way afford another expense especially downloaded app help relax",
+        "expensive getting verify official document get student discount impossible sheerid reject pretty much anything uploaded cell phone claiming official use student email verify upload document use verification site verify school provided email reject every document uploaded thanks headspace guess relax school stressful anything",
+        "quite literally everything paid nothing free think mentioned way",
+        "cost seventeen ridiculous",
+        "everything completely pay walled really disappointing used content accessible without membership seem like anything require membership",
+        "deleted like apps least one free stuff everything behind paywall sure app promoted something free first time came across app everything locked unbelievable apps like subscription based everything considering mental health honestly apps like finch better cute mind paywall lock everything completely even emergency breath exercise insane",
+        "paid app ridiculous price"
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "In-app technical issues",
+      "review_ids": ["3, 5, 6, 9, 10, 16, 25, 42, 48, 56"],
+      "example_reviews": [
+        "paid high amount app keep crashing mid session completely break rhythm concentration",
+        "initially gave five star review however app buggy point unusable frequently connect internet despite apps working full signal connect take age load would great headspace team could look improve functionality app",
+        "already sub unable access session week ive loyal user since two thousand twenty three first time problem change even uninstall redownload time",
+        "agree recent negative review app requiring paid subscription peforms really badly slow buggy frustratingly latest update offline downloads work anymore android mainly use downloaded content help sleep play without internet completely counter productive tried fix reinstall cache clear download still broken acceptable paid app especially sleep use",
+        "stuck endless loop trying log old account log webpage tell open app log app wrong credential option enter correct email address idea log cancel free trial con artist",
+        "downloaded app get past introductory screen three breath exercise tried multiple time restart app work",
+        "absolutely pathetic purchased one year subscription app completely unusable app ubearably slow often freeze mid session downloads randomly dissapear even log purchase older sixty five day get refund paid almost sixty euro year worth acces complete garbage app great work headspace team",
+        "app lot lot technical problem",
+        "partner problem app sometimes stop playing audio randomly opposite effect app aiming randomly might start many minute later poor",
+        "love feature hate constantly freeze crash"
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Criticism & complaints of recent changes",
+      "review_ids": ["2, 26, 34, 45, 50, 55, 62, 69, 70, 75"],
+      "example_reviews": [
+        "update becoming buggy crash way often lag playing session way much irritating especially app meant mediation",
+        "vibe coding something last month app become slow unresponsive worked brilliantly first signed",
+        "content great app getting worse every update pretty bad soon find alternative",
+        "latest update yet nuked download section empty apps taking fourgb data downloads still listed frustrates lot happens regularly update also would let user set random set timer five min five hundred min let user decide music stop freaking loop music anyways make playlist basic future think",
+        "twond update another week later reduced using youtube meditation use app loved app content six year much take update update march two thousand twenty six week later still use app paid yearly subscription let open anything keep saying error already subscription logged uninstalled app please help",
+        "march two thousand twenty six app crash constantly many year ago subscription headspace found app time really intuitive easy find course follow pathway feel like app packed much stuff great stuff everywhere organized intuitive way like find hard find left pathway app always recommending content left something imho content great interface great",
+        "used love sleep cast repeat option continuous option would nice however since last app functionality suck either open open feature stop working",
+        "loved app year unfortunately sleepcasts started crashing minute past month updated app made sure wifi even bought new phone thinking still happens sadly doesnt get fixed soon ill cancel subscription delete app really want please fix app",
+        "used love app meditation great really help get sleep using app two year issue christmas suddenly started switching mid meditation soon unlock app start playing relaxing sometimes stop playing sleep meditation cba get put back turn back randomly middle night jump awake happy user",
+        "ever since app updated new prettier version reliability toilet reliability massively important app like meditation session contain long silent period impossible know one eye closed session gap audio temporary part exercise result yet another crash old app worked every single time one whack likely lead renewing subscription"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "accusations of scam and/or predatory practices / billing and subscription issues",
+      "review_ids": ["18, 19, 20, 46, 53, 61, 64, 84, 90, 126"],
+      "example_reviews": [
+        "beware advertise fourteen day free trial charged annual subscription immediately use google policy get partial refund besides app extremely frustrating slow constantly crashing even meditation samsung galaxy stwenty two",
+        "avoid app want get anyway extremely careful headspace wont send subscription reminder charged fight tooth nail keep money matter got hit hard yearly subscription refused refund extremely scummy move considering app catered also ai enshittification making app drop quality significantly stay away better alternative",
+        "app easy navigate want try free app force click free time subscribe two separate cancel anytime another hassle try free way sound horrible horrible experience",
+        "predatory app slow messy ui superficial content super hard keep track anything app gave never received email subscription extended contacted immediately explained ill unable work moment still refuse cancel extension waste time stress leech money opposite anyone looking meditation app need",
+        "poor app poor customer supporr high cost alot issue renewal wiithout informing refund policy",
+        "awful app mean purchase subscription charged year refund option used app three day hated service never use yet required continue paying awful customer service stay far away anyone anxiety need extra stress",
+        "terrible company refused refund money benefit service",
+        "first encourage install take detail tell gotta pay annual fee use app even use trial take card detail fair practice",
+        "someone household signed free trial without knowledge became aware trial expired charged full year service contacted day charge made let know happened want service asked would possible get full partial refund refused overall app negative effect mental health",
+        "shady lame tricky little deviant tell get free guest pas thirty day share friend still get anymore access still want sign free trial trial charge full price say send guest pas new member get access headspace month membership automatically renews paid membership scam way"
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Positive",
+      "review_ids": ["8, 11, 23, 59, 74, 83, 85, 104, 107, 120"],
+      "example_reviews": [
+        "incredible app get free headspace teen really helped look world positively ten ten",
+        "wonderful magical healing mindset regulator love",
+        "daily necessity calm experience",
+        "head space awsome",
+        "great lesson many option",
+        "love listening bed help unwind",
+        "meditation session relaxing needed break",
+        "ap effective help much try today priced low",
+        "headspace awesome much content offered help life journey grateful suffered chronic pain since child information contained amazing helpful wherever moment recommend headspace encourage everyone give try",
+        "relaxing good"
       ]
     }
   ]}

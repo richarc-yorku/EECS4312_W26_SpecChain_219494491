@@ -1,22 +1,127 @@
-{  "personas": [
+{  
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Budget-Conscious Seeker",
+      "description": "A user looking for affordable mental health support but frustrated by limited free content and expensive subscriptions.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Access free or low-cost meditation content",
+        "Try features before paying",
+        "Use the app regularly without financial burden"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Most features locked behind paywalls",
+        "Subscription cost is too high",
+        "Student discounts difficult to obtain"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Using the app casually to manage stress",
+        "Exploring mental health apps as alternatives to paid therapy"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
-      "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "Limited budget for subscriptions",
+        "Needs meaningful free content to stay engaged"
+      ],
+      "evidence_reviews": ["4, 7, 14, 17, 31, 32, 52, 54, 100, 129"]
+    },
+    {
+      "id": "P2",
+      "name": "Frustrated Power User",
+      "description": "A frequent user who depends on the app but is hindered by crashes, bugs, and unreliable performance.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Use meditation sessions without interruptions",
+        "Access features like downloads and offline playback",
+        "Have a smooth and reliable app experience"
+      ],
+      "pain_points": [
+        "App crashes mid-session",
+        "Slow performance and lag",
+        "Features like downloads or login not working"
+      ],
+      "context": [
+        "Using the app daily for meditation or sleep",
+        "Often using the app in low-connectivity environments"
+      ],
+      "constraints": [
+        "Requires stable performance during sessions",
+        "Cannot tolerate interruptions during meditation"
+      ],
+      "evidence_reviews": ["3, 5, 6, 9, 10, 16, 25, 42, 48, 56"]
+    },
+    {
+      "id": "P3",
+      "name": "Disappointed Long-Term User",
+      "description": "A long-time user who has seen the app decline in quality after updates and is frustrated with recent changes.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Maintain a consistent and familiar user experience",
+        "Continue using previously reliable features",
+        "Benefit from improvements without losing functionality"
+      ],
+      "pain_points": [
+        "Updates introduce bugs and instability",
+        "Features removed or broken after updates",
+        "App becoming harder to navigate"
+      ],
+      "context": [
+        "Using the app regularly over months or years",
+        "Comparing current experience with earlier versions"
+      ],
+      "constraints": [
+        "Relies on stable features for routine use",
+        "Low tolerance for regressions after updates"
+      ],
+      "evidence_reviews": ["2, 26, 34, 45, 50, 55, 62, 69, 70, 75"]
+    },
+    {
+      "id": "P4",
+      "name": "Distrustful Subscriber",
+      "description": "A user who feels misled or treated unfairly due to billing practices, subscriptions, or lack of refunds.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Understand subscription terms clearly",
+        "Avoid unexpected charges",
+        "Receive fair refunds or cancellations"
+      ],
+      "pain_points": [
+        "Unexpected subscription charges",
+        "Difficult cancellation process",
+        "Poor customer support and refund policies"
+      ],
+      "context": [
+        "Signing up for free trials or subscriptions",
+        "Contacting support after billing issues"
+      ],
+      "constraints": [
+        "Needs transparent pricing and billing",
+        "Expects quick resolution of financial issues"
+      ],
+      "evidence_reviews": ["18, 19, 20, 46, 53, 61, 64, 84, 90, 126"]
+    },
+    {
+      "id": "P5",
+      "name": "Satisfied Wellness User",
+      "description": "A user who finds the app helpful for relaxation, mindfulness, and improving mental well-being.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Improve mental health and reduce stress",
+        "Build a consistent meditation routine",
+        "Use the app for sleep and relaxation"
+      ],
+      "pain_points": [
+        "Occasional minor usability issues",
+        "Desire for continued improvements without losing quality"
+      ],
+      "context": [
+        "Using the app daily or before sleep",
+        "Incorporating meditation into lifestyle habits"
+      ],
+      "constraints": [
+        "Needs easy-to-use interface",
+        "Relies on consistent content quality"
+      ],
+      "evidence_reviews": ["8, 11, 23, 59, 74, 83, 85, 104, 107, 120"]
+    }
+  ]}
