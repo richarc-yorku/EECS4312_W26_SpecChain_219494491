@@ -1,16 +1,207 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Access free content as new user",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+      "Install and open the app",
+      "Skip subscription prompts",
+      "Navigate to meditation content"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "User can access at least one free meditation session."
+    },
+    {
+      "test_id": "T2",
+      "requirement_id": "FR1",
+      "scenario": "Free content without login",
+      "steps": [
+      "Open the app",
+      "Do not log in",
+      "Attempt to access available content"
+      ],
+      "expected_result": "User can access basic free content without being forced to subscribe."
+    },
+    {
+      "test_id": "T3",
+      "requirement_id": "FR2",
+      "scenario": "View subscription details",
+      "steps": [
+        "Navigate to premium section",
+        "Click on subscription option"
+      ],
+      "expected_result": "Pricing and features are clearly displayed before payment."
+    },
+    {
+      "test_id": "T4",
+      "requirement_id": "FR2",
+      "scenario": "No hidden charges before payment",
+      "steps": [
+        "Attempt to subscribe",
+        "Review payment screen"
+      ],
+      "expected_result": "User sees full cost and billing cycle before confirming payment."
+    },
+    {
+      "test_id": "T5",
+      "requirement_id": "FR3",
+      "scenario": "Meditation session stability",
+      "steps": [
+        "Start a meditation session",
+        "Let the session play fully"
+      ],
+      "expected_result": "Session completes without crashes or interruptions."
+    },
+    {
+      "test_id": "T6",
+      "requirement_id": "FR3",
+      "scenario": "Multiple sessions stability",
+      "steps": [
+        "Play multiple sessions consecutively",
+        "Switch between sessions"
+      ],
+      "expected_result": "App remains stable with no freezing or crashing."
+    },
+    {
+      "test_id": "T7",
+      "requirement_id": "FR4",
+      "scenario": "Offline playback works",
+      "steps": [
+        "Download a meditation session",
+        "Disable internet connection",
+        "Play downloaded session"
+      ],
+      "expected_result": "Downloaded content plays without errors."
+    },
+    {
+      "test_id": "T8",
+      "requirement_id": "FR4",
+      "scenario": "Offline access persistence",
+      "steps": [
+        "Download content",
+        "Restart the app without internet",
+        "Access downloaded content"
+      ],
+      "expected_result": "Downloaded content remains accessible offline."
+    },
+    {
+      "test_id": "T9",
+      "requirement_id": "FR5",
+      "scenario": "Successful login",
+      "steps": [
+        "Enter valid credentials",
+        "Submit login form"
+      ],
+      "expected_result": "User is logged in and redirected to home screen."
+    },
+    {
+      "test_id": "T10",
+      "requirement_id": "FR5",
+      "scenario": "No login loop",
+      "steps": [
+        "Enter valid credentials",
+        "Attempt login multiple times"
+      ],
+      "expected_result": "User is not stuck in a login loop and gains access."
+    },
+    {
+      "test_id": "T11",
+      "requirement_id": "FR6",
+      "scenario": "Feature works after update",
+      "steps": [
+        "Update the app",
+        "Access previously used feature"
+      ],
+      "expected_result": "Feature works as expected without regression."
+    },
+    {
+      "test_id": "T12",
+      "requirement_id": "FR6",
+      "scenario": "No crashes after update",
+      "steps": [
+        "Update the app",
+        "Run multiple core features"
+      ],
+      "expected_result": "App remains stable after update."
+    },
+    {
+      "test_id": "T13",
+      "requirement_id": "FR7",
+      "scenario": "UI consistency after update",
+      "steps": [
+        "Update the app",
+        "Navigate through main sections"
+      ],
+      "expected_result": "Core features remain easy to find."
+    },
+    {
+      "test_id": "T14",
+      "requirement_id": "FR7",
+      "scenario": "User navigation ease",
+      "steps": [
+        "Open app",
+        "Locate meditation session"
+      ],
+      "expected_result": "User can find key features within a few steps."
+    },
+    {
+      "test_id": "T15",
+      "requirement_id": "FR8",
+      "scenario": "Cancel subscription easily",
+      "steps": [
+        "Go to account settings",
+        "Select cancel subscription"
+      ],
+      "expected_result": "Subscription is canceled without unnecessary steps."
+    },
+    {
+      "test_id": "T16",
+      "requirement_id": "FR8",
+      "scenario": "Cancellation confirmation",
+      "steps": [
+        "Cancel subscription",
+        "Check confirmation"
+      ],
+      "expected_result": "User receives confirmation of cancellation."
+    },
+    {
+      "test_id": "T17",
+      "requirement_id": "FR9",
+      "scenario": "Renewal notification sent",
+      "steps": [
+        "Have active subscription",
+        "Wait until renewal period"
+      ],
+      "expected_result": "User receives notification before renewal."
+    },
+    {
+      "test_id": "T18",
+      "requirement_id": "FR9",
+      "scenario": "Notification timing",
+      "steps": [
+        "Track renewal timing",
+        "Check notification timestamp"
+      ],
+      "expected_result": "Notification is sent at least 24 hours before renewal."
+    },
+    {
+      "test_id": "T19",
+      "requirement_id": "FR10",
+      "scenario": "Content availability",
+      "steps": [
+        "Open meditation content",
+        "Play multiple sessions"
+      ],
+      "expected_result": "Content plays successfully without errors."
+    },
+    {
+      "test_id": "T20",
+      "requirement_id": "FR10",
+      "scenario": "Content consistency",
+      "steps": [
+        "Use app daily",
+        "Access sessions over time"
+      ],
+      "expected_result": "Content remains consistently available and functional."
     }
-  ]
-}
+  ]}
