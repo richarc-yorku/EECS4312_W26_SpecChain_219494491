@@ -1,14 +1,14 @@
 {
     "app_name": "Headspace",
-    "raw_dataset_size": 1000,
-    "cleaned_dataset_size": 976,
+    "raw_dataset_size": 5000,
+    "cleaned_dataset_size": 4665,
     "collection_method": {
         "library": "google-play-scraper",
         "app_id": "com.getsomeheadspace.android",
         "country": "ca",
         "language": "en",
         "sorting": "newest",
-        "target_count": 1000,
+        "target_count": 5000,
         "notes": "Collected using google-play-scraper's reviews function with batching to fetch up to 1000 reviews."
     },
     "cleaning_decisions": [

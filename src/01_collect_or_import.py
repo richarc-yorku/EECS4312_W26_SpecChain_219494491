@@ -2,7 +2,7 @@ from google_play_scraper import reviews, Sort
 import json
 
 APP_ID = "com.getsomeheadspace.android"
-TARGET_COUNT = 1000
+TARGET_COUNT = 5000
 
 all_reviews = []
 continuation_token = None
