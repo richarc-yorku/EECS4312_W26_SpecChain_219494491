@@ -1,20 +1,12 @@
-# EECS4312_W26_SpecChain
+# EECS4312_W26_SpecChain_219494491
 
-## instructions:
-Please update to include: 
-- App name
-- Data collection method
-- Original dataset
-- Final cleaned dataset
-- Exact commands to run pipeline
-
-# example
-Application: [Calm]
+Application: [Head Space]
 
 Dataset:
-- reviews_raw.jsonl contains the collected reviews.
-- reviews_clean.jsonl contains the cleaned dataset.
-- The cleaned dataset contains 842 reviews.
+- Data collected using google_play_scraper @ https://github.com/facundoolano/google-play-scraper
+- data/reviews_raw.jsonl contains the collected reviews.
+- data/reviews_clean.jsonl contains the cleaned dataset.
+- The cleaned dataset contains 4665 reviews.
 
 Repository Structure:
 - data/ contains datasets and review groups
@@ -26,8 +18,6 @@ Repository Structure:
 - reflection/ contains the final reflection
 
 How to Run:
-1. python src/00_validate_repo.py
-2. python src/02_clean.py
-3. python src/run_all.py
-4. Open metrics/metrics_summary.json for comparison results
+1. python src/run_all.py
+2. Open metrics/metrics_summary.json for comparison results
 
