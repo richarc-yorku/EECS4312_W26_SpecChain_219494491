@@ -113,3 +113,9 @@ if __name__ == "__main__":
     all_metrics = {}
     for name, files in PIPELINES.items():
         all_metrics[name] = compute_metrics_for_pipeline(name, files)
+        
+    summary_file = "metrics/metrics_summary.json"
+    with open(summary_file, "w", encoding="utf-8") as f:
+        json.dump(all_metrics, f, indent=2)
+
+    print(f"Combined metrics summary saved to {summary_file}")

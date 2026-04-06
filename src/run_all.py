@@ -5,18 +5,17 @@ import subprocess
 # List of scripts in execution order
 SCRIPTS = [
     "00_validate_repo.py",          # validate repository structure
-    "01_collect_or_import.py",      # collect/import raw dataset
-    "02_clean.py",                  # clean dataset
-    # "03_manual_coding_template.py", # manual coding template    - not run
-    # "04_personas_manual.py",        # generate manual personas  - not run
-    "05_personas_auto.py",          # generate automated personas
-    "06_spec_generate.py",          # generate specifications
-    "07_tests_generate.py",         # generate tests
-    "08_metrics.py"                 # compute metrics
+    "01_collect_or_import.py",      # collect/import raw dataset    - creates reviews_raw.jsonl
+    "02_clean.py",                  # clean dataset                 - creates reviews_clean.jsonl
+    # "03_manual_coding_template.py", # manual coding template
+    # "04_personas_manual.py",        # generate manual personas
+    "05_personas_auto.py",          # generate automated personas   - creates personas_auto.json
+    "06_spec_generate.py",          # generate specifications       - creates spec_auto.md
+    "07_tests_generate.py",         # generate tests                - creates tests_auto.json
+    "08_metrics.py"                 # compute metrics               - creates metrics_auto/hyrbid/manual/summary
 ]
 
 def run_script(script_name):
-    """Run a Python script as a subprocess and return True if it succeeded."""
     script_path = os.path.join("src", script_name)
     print(f"\nRunning {script_name}...")
     try:
