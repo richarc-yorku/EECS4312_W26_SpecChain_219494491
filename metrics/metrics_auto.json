@@ -1,5 +1,5 @@
 {
-  "pipeline": "automated",
+  "pipeline": "auto",
   "dataset_size": 4665,
   "persona_count": 5,
   "requirements_count": 10,
