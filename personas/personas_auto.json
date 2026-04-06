@@ -1,0 +1,128 @@
+{
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Frustrated Fan",
+      "description": "A loyal user experiencing performance issues",
+      "derived_from_group": "G1",
+      "goals": [
+        "Use the app daily for stress relief",
+        "Get quick access to meditation sessions"
+      ],
+      "pain_points": [
+        "App freezing or crashing",
+        "Slow loading times"
+      ],
+      "context": [
+        "Daily usage",
+        "Recent updates causing issues"
+      ],
+      "constraints": [
+        "Limited technical expertise",
+        "Dependence on app for mental wellness"
+      ],
+      "evidence_reviews": [
+        "1009, 970, 3457, 1408, 2669, 1528, 1354, 965, 1210, 741, 3266, 2906, 1084, 502, 1205"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Disappointed Customer",
+      "description": "A user frustrated with subscription and paywall issues",
+      "derived_from_group": "G2",
+      "goals": [
+        "Access meditation content without hassle",
+        "Cancel subscription easily"
+      ],
+      "pain_points": [
+        "Paywall issues",
+        "Difficulty canceling subscription"
+      ],
+      "context": [
+        "Trying to access content",
+        "Frustrated with financial aspects"
+      ],
+      "constraints": [
+        "Limited financial resources",
+        "Frustration with customer support"
+      ],
+      "evidence_reviews": [
+        "2949, 3602, 3245, 4525, 2185, 7, 3730, 217, 2480, 4421, 3649, 3898, 3018, 2770, 2414"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Support Seeker",
+      "description": "A user struggling with customer support and cancellation issues",
+      "derived_from_group": "G3",
+      "goals": [
+        "Get help with app issues",
+        "Cancel subscription easily"
+      ],
+      "pain_points": [
+        "Difficulty contacting support",
+        "Impossible cancellation process"
+      ],
+      "context": [
+        "Seeking help",
+        "Frustrated with support experience"
+      ],
+      "constraints": [
+        "Limited patience",
+        "Emotional investment in app"
+      ],
+      "evidence_reviews": [
+        "280, 2409, 3050, 3310, 108, 222, 239, 3119, 1102, 3346, 3491, 4068, 1551, 2180, 3346"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Feature Fanatic",
+      "description": "A user interested in app features and content",
+      "derived_from_group": "G4",
+      "goals": [
+        "Access diverse meditation content",
+        "Enjoy seamless app experience"
+      ],
+      "pain_points": [
+        "Buffering issues",
+        "Limited content"
+      ],
+      "context": [
+        "Using app for meditation",
+        "Frustrated with technical issues"
+      ],
+      "constraints": [
+        "High expectations for app features",
+        "Dependence on app for mental wellness"
+      ],
+      "evidence_reviews": [
+        "1398, 2669, 1528, 1354, 965, 1442, 1780, 1073, 331, 586, 4075, 714, 1198, 4401, 1988"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Happy Helper",
+      "description": "A user with positive reviews and suggestions",
+      "derived_from_group": "G5",
+      "goals": [
+        "Share positive experiences",
+        "Suggest improvements"
+      ],
+      "pain_points": [
+        "Rarely experiences issues"
+      ],
+      "context": [
+        "Long-term user",
+        "Appreciative of app benefits"
+      ],
+      "constraints": [
+        "Willingness to provide feedback",
+        "Positive attitude towards app"
+      ],
+      "evidence_reviews": [
+        "1666, 2299, 2805, 3869, 3431, 1961, 857, 3852, 2232, 2050, 1205, 502, 1102, 3523, 2625"
+      ]
+    }
+  ]
+}
