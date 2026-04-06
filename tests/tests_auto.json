@@ -1,15 +1,184 @@
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
-      "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
+      "test_id": "T1",
+      "requirement_id": "FR1",
+      "scenario_description": "Launch the system without crashing or malfunctioning",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Launch the system",
+        "Verify the system loads without errors"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_outcome": "The system launches successfully without crashing or malfunctioning"
+    },
+    {
+      "test_id": "T2",
+      "requirement_id": "FR1",
+      "scenario_description": "Verify system stability after prolonged use",
+      "steps": [
+        "Use the system for an extended period",
+        "Monitor for errors or crashes"
+      ],
+      "expected_outcome": "The system remains stable and functional after prolonged use"
+    },
+    {
+      "test_id": "T3",
+      "requirement_id": "FR2",
+      "scenario_description": "Verify clear and transparent payment terms",
+      "steps": [
+        "Subscribe to the service",
+        "Review payment terms and subscription details"
+      ],
+      "expected_outcome": "Payment terms and subscription details are clear and transparent"
+    },
+    {
+      "test_id": "T4",
+      "requirement_id": "FR2",
+      "scenario_description": "Verify no unexpected charges",
+      "steps": [
+        "Monitor account and transaction history",
+        "Verify no unexpected charges"
+      ],
+      "expected_outcome": "No unexpected charges are found"
+    },
+    {
+      "test_id": "T5",
+      "requirement_id": "FR3",
+      "scenario_description": "Search for meditation content",
+      "steps": [
+        "Use the search function",
+        "Verify relevant results are returned"
+      ],
+      "expected_outcome": "Relevant meditation content is returned in search results"
+    },
+    {
+      "test_id": "T6",
+      "requirement_id": "FR3",
+      "scenario_description": "Verify search function handles edge cases",
+      "steps": [
+        "Search for obscure or niche topics",
+        "Verify relevant results are returned"
+      ],
+      "expected_outcome": "The search function handles edge cases and returns relevant results"
+    },
+    {
+      "test_id": "T7",
+      "requirement_id": "FR4",
+      "scenario_description": "Contact customer service",
+      "steps": [
+        "Reach out to customer service",
+        "Verify a response is received"
+      ],
+      "expected_outcome": "Helpful and responsive customer service is provided"
+    },
+    {
+      "test_id": "T8",
+      "requirement_id": "FR4",
+      "scenario_description": "Verify customer service resolves issues",
+      "steps": [
+        "Report an issue to customer service",
+        "Verify the issue is resolved"
+      ],
+      "expected_outcome": "The issue is resolved efficiently by customer service"
+    },
+    {
+      "test_id": "T9",
+      "requirement_id": "FR5",
+      "scenario_description": "Verify engaging user experience",
+      "steps": [
+        "Use the system for a period",
+        "Provide feedback on user experience"
+      ],
+      "expected_outcome": "The user experience is engaging and motivating"
+    },
+    {
+      "test_id": "T10",
+      "requirement_id": "FR5",
+      "scenario_description": "Verify seamless navigation",
+      "steps": [
+        "Navigate through the system",
+        "Verify smooth transitions and loading"
+      ],
+      "expected_outcome": "Navigation is seamless and smooth"
+    },
+    {
+      "test_id": "T11",
+      "requirement_id": "FR6",
+      "scenario_description": "Verify loading times",
+      "steps": [
+        "Monitor loading times",
+        "Verify fast loading"
+      ],
+      "expected_outcome": "Loading times are minimized and fast"
+    },
+    {
+      "test_id": "T12",
+      "requirement_id": "FR6",
+      "scenario_description": "Verify content loads quickly",
+      "steps": [
+        "Access meditation content",
+        "Verify fast loading"
+      ],
+      "expected_outcome": "Meditation content loads quickly"
+    },
+    {
+      "test_id": "T13",
+      "requirement_id": "FR7",
+      "scenario_description": "Cancel subscription",
+      "steps": [
+        "Cancel subscription",
+        "Verify cancellation is processed"
+      ],
+      "expected_outcome": "The subscription is cancelled easily and efficiently"
+    },
+    {
+      "test_id": "T14",
+      "requirement_id": "FR7",
+      "scenario_description": "Verify no issues with cancellation",
+      "steps": [
+        "Verify no further charges",
+        "Verify access to content remains"
+      ],
+      "expected_outcome": "Cancellation is processed without issues"
+    },
+    {
+      "test_id": "T15",
+      "requirement_id": "FR8",
+      "scenario_description": "Verify meditation features",
+      "steps": [
+        "Access meditation features",
+        "Verify features support meditation"
+      ],
+      "expected_outcome": "Features support meditation and well-being goals"
+    },
+    {
+      "test_id": "T16",
+      "requirement_id": "FR8",
+      "scenario_description": "Verify features are helpful",
+      "steps": [
+        "Use meditation features",
+        "Provide feedback on helpfulness"
+      ],
+      "expected_outcome": "Features are helpful in achieving well-being goals"
+    },
+    {
+      "test_id": "T17",
+      "requirement_id": "FR9",
+      "scenario_description": "Verify technical issue resolution",
+      "steps": [
+        "Report a technical issue",
+        "Verify the issue is resolved"
+      ],
+      "expected_outcome": "Technical issues are handled efficiently"
+    },
+    {
+      "test_id": "T18",
+      "requirement_id": "FR9",
+      "scenario_description": "Verify minimal user frustration",
+      "steps": [
+        "Encounter a technical issue",
+        "Verify frustration is minimized"
+      ],
+      "expected_outcome": "User frustration is minimized during technical issues"
     }
   ]
 }

@@ -1,94 +1,53 @@
-### Frustrated Fan (P1)
-#### FR1
-* **Description**: The app shall ensure daily usage without freezing or crashing to provide stress relief.
-* **Source Persona**: Frustrated Fan (P1)
-* **Traceability**: Derived from review group: G1
-* **Acceptance Criteria**: The app shall maintain a stability rate of 99.9% uptime, with no more than 1 crash per 100 sessions.
+# Requirement ID: FR1
+* Description: The system must launch without crashing or malfunctioning to allow users to access meditation content.
+* Source Persona: Frustrated Tech User
+* Traceability: Derived from review group: G1
+* Acceptance Criteria: Given the user has a stable internet connection, when they launch the app, then it opens without crashing or displaying error messages.
 
-#### FR2
-* **Description**: The app shall provide quick access to meditation sessions with minimal loading times.
-* **Source Persona**: Frustrated Fan (P1)
-* **Traceability**: Derived from review group: G1
-* **Acceptance Criteria**: The app shall load meditation sessions within 2 seconds of request, with a maximum delay of 5 seconds.
+# Requirement ID: FR2
+* Description: The system must provide clear and transparent payment terms to help users understand their subscription and avoid unexpected charges.
+* Source Persona: Budget-Conscious User
+* Traceability: Derived from review group: G2
+* Acceptance Criteria: Given the user is viewing their subscription details, when they select the payment terms option, then they see a clear breakdown of their charges, including any promotional offers or discounts.
 
-#### FR3
-* **Description**: The app shall provide an easy-to-use interface for users with limited technical expertise.
-* **Source Persona**: Frustrated Fan (P1)
-* **Traceability**: Derived from review group: G1
-* **Acceptance Criteria**: The app shall have an interface that can be easily navigated by 90% of users without technical support.
+# Requirement ID: FR3
+* Description: The system must provide a search function that allows users to easily find relevant meditation content.
+* Source Persona: Content Seeker
+* Traceability: Derived from review group: G3
+* Acceptance Criteria: Given the user is browsing the content library, when they enter a search query, then the system displays a list of relevant results, including guided meditations, articles, and videos.
 
-### Disappointed Customer (P2)
-#### FR4
-* **Description**: The app shall provide easy access to meditation content without paywall issues.
-* **Source Persona**: Disappointed Customer (P2)
-* **Traceability**: Derived from review group: G2
-* **Acceptance Criteria**: The app shall display content without paywall issues for at least 95% of users.
+# Requirement ID: FR4
+* Description: The system must provide helpful and responsive customer service to resolve user issues efficiently.
+* Source Persona: Dissatisfied Customer
+* Traceability: Derived from review group: G4
+* Acceptance Criteria: Given the user submits a support request, when they receive a response, then the response is personalized, helpful, and provides a clear solution or next steps.
 
-#### FR5
-* **Description**: The app shall allow users to cancel their subscription easily.
-* **Source Persona**: Disappointed Customer (P2)
-* **Traceability**: Derived from review group: G2
-* **Acceptance Criteria**: The app shall allow users to cancel their subscription within 2 clicks.
+# Requirement ID: FR5
+* Description: The system must provide a seamless and engaging user experience to keep users engaged and motivated to continue using the app.
+* Source Persona: Engaged User
+* Traceability: Derived from review group: G5
+* Acceptance Criteria: Given the user is using the app regularly, when they interact with the app, then they experience a smooth and intuitive interface that makes it easy to access and use the app's features.
 
-#### FR6
-* **Description**: The app shall provide transparent and reasonable subscription pricing.
-* **Source Persona**: Disappointed Customer (P2)
-* **Traceability**: Derived from review group: G2
-* **Acceptance Criteria**: The app shall display clear pricing information on the subscription page.
+# Requirement ID: FR6
+* Description: The system must minimize loading times to ensure users can access content quickly.
+* Source Persona: Content Seeker
+* Traceability: Derived from review group: G3
+* Acceptance Criteria: Given the user is on a stable internet connection, when they navigate to a new section of the app, then the content loads within 2 seconds.
 
-### Support Seeker (P3)
-#### FR7
-* **Description**: The app shall provide easy access to customer support for users experiencing issues.
-* **Source Persona**: Support Seeker (P3)
-* **Traceability**: Derived from review group: G3
-* **Acceptance Criteria**: The app shall respond to support requests within 2 hours.
+# Requirement ID: FR7
+* Description: The system must allow users to easily cancel their subscription if desired.
+* Source Persona: Budget-Conscious User
+* Traceability: Derived from review group: G2
+* Acceptance Criteria: Given the user is viewing their subscription details, when they select the cancel subscription option, then the system confirms the cancellation and provides a clear explanation of any next steps.
 
-#### FR8
-* **Description**: The app shall allow users to cancel their subscription easily with minimal support required.
-* **Source Persona**: Support Seeker (P3)
-* **Traceability**: Derived from review group: G3
-* **Acceptance Criteria**: The app shall allow users to cancel their subscription without contacting support.
+# Requirement ID: FR8
+* Description: The system must provide features that support meditation and help users achieve their well-being goals.
+* Source Persona: Engaged User
+* Traceability: Derived from review group: G5
+* Acceptance Criteria: Given the user is using a meditation feature, when they complete a session, then they receive a summary of their progress and suggestions for future sessions.
 
-#### FR9
-* **Description**: The app shall provide clear instructions for troubleshooting common issues.
-* **Source Persona**: Support Seeker (P3)
-* **Traceability**: Derived from review group: G3
-* **Acceptance Criteria**: The app shall have a knowledge base with solutions to at least 80% of common issues.
-
-### Feature Fanatic (P4)
-#### FR10
-* **Description**: The app shall provide diverse meditation content to cater to different user needs.
-* **Source Persona**: Feature Fanatic (P4)
-* **Traceability**: Derived from review group: G4
-* **Acceptance Criteria**: The app shall offer at least 50 different meditation sessions.
-
-#### FR11
-* **Description**: The app shall ensure seamless playback of meditation sessions without buffering issues.
-* **Source Persona**: Feature Fanatic (P4)
-* **Traceability**: Derived from review group: G4
-* **Acceptance Criteria**: The app shall maintain a buffer-free playback rate of 95%.
-
-#### FR12
-* **Description**: The app shall provide a user-friendly interface for users to navigate and access features easily.
-* **Source Persona**: Feature Fanatic (P4)
-* **Traceability**: Derived from review group: G4
-* **Acceptance Criteria**: The app shall have an interface that can be easily navigated by 90% of users.
-
-### Happy Helper (P5)
-#### FR13
-* **Description**: The app shall allow users to share their positive experiences and suggestions.
-* **Source Persona**: Happy Helper (P5)
-* **Traceability**: Derived from review group: G5
-* **Acceptance Criteria**: The app shall have a feedback mechanism that allows users to submit suggestions.
-
-#### FR14
-* **Description**: The app shall display user feedback and suggestions prominently.
-* **Source Persona**: Happy Helper (P5)
-* **Traceability**: Derived from review group: G5
-* **Acceptance Criteria**: The app shall display user feedback on the app store.
-
-#### FR15
-* **Description**: The app shall have a mechanism for users to rate and review their experience.
-* **Source Persona**: Happy Helper (P5)
-* **Traceability**: Derived from review group: G5
-* **Acceptance Criteria**: The app shall have a rating system that allows users to rate their experience.
+# Requirement ID: FR9
+* Description: The system must handle technical issues efficiently to minimize user frustration.
+* Source Persona: Frustrated Tech User
+* Traceability: Derived from review group: G1
+* Acceptance Criteria: Given the user experiences a technical issue, when they report the issue, then the system provides a clear error message and offers a solution or workaround.

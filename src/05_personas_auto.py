@@ -13,6 +13,8 @@ GROUP_OUTPUT = "data/review_groups_auto.json"
 PERSONA_OUTPUT = "personas/personas_auto.json"
 SYSTEM_PROMPT = "You are a requirements engineering analyst."
 
+PROMPT_FILE = "prompts/prompt_auto.json"
+
 # Utility: Extract JSON
 def extract_json(text):
     try:
@@ -180,8 +182,35 @@ def main():
     with open(PERSONA_OUTPUT, "w") as f:
         json.dump(personas, f, indent=2)
 
+    update_prompts(build_grouping_prompt(reviews), build_personas_prompt(groups))
     print("Auto personas pipeline completed.")
 
+def update_prompts(groups_user_prompt, personas_user_prompt):
+    # Load existing prompts if the file exists
+    if os.path.exists(PROMPT_FILE):
+        with open(PROMPT_FILE, "r") as f:
+            prompts_data = json.load(f)
+    else:
+        prompts_data = {}
+
+    # Ensure the structure exists
+    prompts_data.setdefault("model", "meta-llama/llama-4-scout-17b-16e-instruct")
+    prompts_data.setdefault("group_Generation", {"system_prompt": "", "user_prompt": ""})
+    prompts_data.setdefault("persona_generation", {"system_prompt": "", "user_prompt": ""})
+    prompts_data.setdefault("spec_generation", {"system_prompt": "", "user_prompt": ""})
+    prompts_data.setdefault("test_generation", {"system_prompt": "", "user_prompt": ""})
+
+    # Update only the user prompts
+    prompts_data["group_Generation"]["system_prompt"] = SYSTEM_PROMPT
+    prompts_data["group_Generation"]["user_prompt"] = groups_user_prompt
+    prompts_data["persona_generation"]["system_prompt"] = SYSTEM_PROMPT
+    prompts_data["persona_generation"]["user_prompt"] = personas_user_prompt
+
+    # Write back
+    os.makedirs(os.path.dirname(PROMPT_FILE), exist_ok=True)
+    with open(PROMPT_FILE, "w") as f:
+        json.dump(prompts_data, f, indent=2)
+    print(f"Prompts updated in {PROMPT_FILE}")
 
 if __name__ == "__main__":
     main()

@@ -2,132 +2,108 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "Performance Issues",
+      "theme": "Technical Issues",
       "review_ids": [
-        "1009",
-        "970",
-        "3457",
-        "1408",
-        "2669",
-        "1528",
-        "1354",
-        "965",
-        "1210",
-        "741",
-        "3266",
-        "2906",
-        "1084",
-        "502",
-        "1205"
+        "806",
+        "983",
+        "1111",
+        "1286",
+        "1989",
+        "229",
+        "2538",
+        "3025",
+        "3644",
+        "423"
       ],
       "example_reviews": [
-        "app freeze within second opening recent update",
-        "horrible literally uploaded app deleted four hour later everything locked paywall app try force paying expensive subscription",
-        "used app daily year app used great bloated user experience definitely suffering ever slow load loading restarted setting saving etc"
+        "app malfunction constantly",
+        "stopped working mandatory upgrade cannot use app anymore",
+        "love app meditation would easily get five recently become unusable crash upon launch"
       ]
     },
     {
       "group_id": "G2",
-      "theme": "Subscription and Paywall Issues",
+      "theme": "Payment and Subscription",
       "review_ids": [
-        "2949",
-        "3602",
-        "3245",
-        "4525",
-        "2185",
-        "7",
-        "3730",
-        "217",
-        "2480",
-        "4421",
-        "3649",
-        "3898",
-        "3018",
-        "2770",
-        "2414"
+        "1337",
+        "2504",
+        "3311",
+        "3356",
+        "4061",
+        "4535",
+        "4569",
+        "4634",
+        "709",
+        "3988"
       ],
       "example_reviews": [
-        "horrible literally uploaded app deleted four hour later everything locked paywall app try force paying expensive subscription",
-        "quality way around",
-        "scam warned fee charged upon trying cancel impossible log via website told email already used someone else desert password told thing keep charging cancel via website prevent accessing scam"
+        "awful took full payment forty nine ninety nine fourteen day free trial ended still seven hour remaining cancel cancelled refund",
+        "expensive much actually useful content much junk content",
+        "pay quite literally everything"
       ]
     },
     {
       "group_id": "G3",
-      "theme": "Customer Support and Cancellation Issues",
+      "theme": "Content and Features",
       "review_ids": [
-        "280",
-        "2409",
-        "3050",
-        "3310",
-        "108",
-        "222",
-        "239",
-        "3119",
-        "1102",
-        "3346",
-        "3491",
-        "4068",
-        "1551",
-        "2180",
-        "3346"
+        "1411",
+        "4611",
+        "4388",
+        "1633",
+        "2146",
+        "2162",
+        "3451",
+        "4509",
+        "521",
+        "4470"
       ],
       "example_reviews": [
-        "used love app turned money grubbing machine care anymore beware app ai therapist",
-        "absolutely love application use throughout day downside purchased play game often worth noticed feel better overall amazing much simple application changed perspective overall mood less month crazy right highly recommend application help many area life sure anyone else",
-        "impossible cancel ap"
+        "gotten complex year barely find normal tenm meditation andy plus loading time browsing course crazy long",
+        "headspace wonderful job introducing people meditation think little bit dangerous become dependent tool",
+        "simply best easy follow world best attention already oh look shiny key guess still room grow great program step meditation thankful"
       ]
     },
     {
       "group_id": "G4",
-      "theme": "App Features and Content",
+      "theme": "Customer Service",
       "review_ids": [
-        "1398",
-        "2669",
-        "1528",
-        "1354",
-        "965",
-        "1442",
-        "1780",
-        "1073",
-        "331",
-        "586",
-        "4075",
-        "714",
-        "1198",
-        "4401",
-        "1988"
+        "311",
+        "729",
+        "1118",
+        "2386",
+        "2924",
+        "3403",
+        "3523",
+        "3899",
+        "4171",
+        "4260"
       ],
       "example_reviews": [
-        "love app recently take minute load every page extremely frustrating",
-        "using headspace several year used really love unfortunately buffering issue ongoing month get stuck buffering meditation nearly every day matter wifi fiveg downloaded meditation offline use whatever cleared cache uninstalled reinstalled app still nothing fix issue eye closed know meditation paused issue make app unusable",
-        "great app program helped navigate sleep ptsd stress"
+        "app completely terrible venting really see many others left review issue app cutting mid meditation every time contacted customer service everything said still shame",
+        "useless customer service",
+        "scam would give zero star stole card info play store receipt purchase google reporting fraud"
       ]
     },
     {
       "group_id": "G5",
-      "theme": "Positive Reviews and Suggestions",
+      "theme": "General Experience",
       "review_ids": [
-        "1666",
-        "2299",
-        "2805",
-        "3869",
-        "3431",
-        "1961",
-        "857",
-        "3852",
-        "2232",
-        "2050",
-        "1205",
-        "502",
-        "1102",
-        "3523",
-        "2625"
+        "11",
+        "1766",
+        "2173",
+        "2271",
+        "2413",
+        "2791",
+        "2806",
+        "3298",
+        "3734",
+        "4473"
       ],
       "example_reviews": [
-        "life changing thanks andy started two thousand eighteen amazing journey practice",
-        "like dora voice could without cue",
-        "best app tried really nice able calm minute"
+        "wonderful magical healing mindset regulator love",
+        "best meditation app ever",
+        "really like app feature would drastically improve quality life able queue create playlist",
+        "app changed life helped find peace absolute wealth knowledge various resource help throughout day"
       ]
     }
   ]
