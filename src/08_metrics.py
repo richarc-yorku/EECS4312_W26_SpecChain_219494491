@@ -3,12 +3,12 @@ import re
 
 # Paths to artifacts
 REVIEWS_FILE = "data/reviews_clean.jsonl"
-GROUPS_FILE = "data/review_groups_auto.json"
-PERSONAS_FILE = "personas/personas_auto.json"
-SPEC_FILE = "spec/spec_auto.md"
-TESTS_FILE = "tests/tests_auto.json"
+GROUPS_FILE = "data/review_groups_hybrid.json"
+PERSONAS_FILE = "personas/personas_hybrid.json"
+SPEC_FILE = "spec/spec_hybrid.md"
+TESTS_FILE = "tests/tests_hybrid.json"
 
-METRICS_FILE = "metrics/metrics_auto.json"
+METRICS_FILE = "metrics/metrics_hybrid.json"
 
 def load_json(path):
     with open(path, "r") as f:
@@ -25,7 +25,7 @@ def compute_metrics():
     personas = load_json(PERSONAS_FILE)["personas"]
     tests = load_json(TESTS_FILE)["tests"]
     
-    with open(SPEC_FILE, "r") as f:
+    with open(SPEC_FILE, "r", encoding="utf-8") as f:
         spec_text = f.read()
     
     # Basic counts
@@ -72,7 +72,7 @@ def compute_metrics():
     ambiguity_ratio = ambiguous_count / max(requirements_count, 1)
 
     metrics = {
-        "pipeline": "automated",
+        "pipeline": "hybrid",
         "dataset_size": dataset_size,
         "persona_count": persona_count,
         "requirements_count": requirements_count,

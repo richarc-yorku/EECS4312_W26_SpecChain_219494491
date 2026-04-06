@@ -2,15 +2,160 @@
   "tests": [
     {
       "test_id": "T_hybrid_1",
-      "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "requirement_id": "FR1",
+      "scenario": "Verify the system launches reliably without crashing",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Launch the system",
+        "Observe the home screen for errors"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "The system launches successfully within 5 seconds without crashing or displaying errors",
+      "notes": "general wording."
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR1",
+      "scenario": "Verify system stability after prolonged use",
+      "steps": [
+        "Use the system continuously for at least 2 hours",
+        "Monitor for crashes or performance degradation"
+      ],
+      "expected_result": "The system remains stable, responsive, and functional throughout usage",
+      "notes": "removing generalities."
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR2",
+      "scenario": "Verify clear and transparent payment terms",
+      "steps": [
+        "Navigate to subscription page",
+        "Review pricing, billing cycles, and cancellation policies"
+      ],
+      "expected_result": "All payment terms are clearly displayed and easy to understand",
+      "notes": "reworded."
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR2",
+      "scenario": "Verify subscription management transparency",
+      "steps": [
+        "Subscribe to a plan",
+        "Access account settings and billing details"
+      ],
+      "expected_result": "Users can access and understand subscription and billing information easily",
+      "notes": "reworded."
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR3",
+      "scenario": "Search for meditation content using keywords or categories",
+      "steps": [
+        "Use the search function",
+        "Enter keywords or select categories",
+        "Submit the search"
+      ],
+      "expected_result": "Relevant meditation content is displayed efficiently and matches search criteria",
+      "notes": "Tests functionality and relevance of search feature."
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR3",
+      "scenario": "Verify search results are relevant",
+      "steps": [
+        "Perform a search query",
+        "Review search results for relevance"
+      ],
+      "expected_result": "Search results are relevant and match the search query",
+      "notes": "none."
+    },
+    {
+      "test_id": "T_hybrid_7-8",
+      "requirement_id": "FR4",
+      "scenario": "Test customer service responsiveness and issue resolution",
+      "steps": [
+        "Submit a support request via chat or email",
+        "Track response time",
+        "Verify issue resolution"
+      ],
+      "expected_result": "Customer service responds within 24 hours and resolves the issue efficiently",
+      "notes": "combines tests 7 & 8. Covers FR4 hybrid requirement for support responsiveness."
+    },
+    {
+      "test_id": "T_hybrid_9-10",
+      "requirement_id": "FR5",
+      "scenario": "Verify fast system loading and seamless navigation",
+      "steps": [
+        "Navigate through multiple screens and content pages",
+        "Measure loading times for each"
+      ],
+      "expected_result": "All screens and content load within 2 seconds",
+      "notes": "combines tests 9 & 10, objective expectations."
+    },
+    {
+      "test_id": "T_hybrid_11-12",
+      "requirement_id": "FR6",
+      "scenario": "Verify easy subscription cancellation",
+      "steps": [
+        "Navigate to account settings",
+        "Select 'Cancel Subscription'",
+        "Confirm cancellation"
+      ],
+      "expected_result": "Subscription is cancelled easily within two steps without errors",
+      "notes": "combines tests 11 & 12."
+    },
+    {
+      "test_id": "T_hybrid_13-14",
+      "requirement_id": "FR7",
+      "scenario": "Test meditation feature usability and support",
+      "steps": [
+        "Access guided meditation content",
+        "Use reminders and progress tracking features"
+      ],
+      "expected_result": "Features support meditation effectively and are positively verified by survey",
+      "notes": "combines tests 13 & 14, adds objective result."
+    },
+    {
+      "test_id": "T_hybrid_15-16",
+      "requirement_id": "FR8",
+      "scenario": "Verify account and content synchronization across devices",
+      "steps": [
+        "Log in on multiple devices",
+        "Access content and settings on each device"
+      ],
+      "expected_result": "User account, content, and progress are synchronized consistently across all devices",
+      "notes": "combines tests 15 & 16."
+    },
+    {
+      "test_id": "T_hybrid_18-19",
+      "requirement_id": "FR9",
+      "scenario": "Verify clarity of update information and release notes",
+      "steps": [
+        "Access the updates section",
+        "Review release notes and change information"
+      ],
+      "expected_result": "All updates and changes are clearly described and easy to understand, verified by survey",
+      "notes": "combines tests 17 & 18, adds objective results."
+    },
+    {
+      "test_id": "T_hybrid_19",
+      "requirement_id": "FR10",
+      "scenario": "Test feedback and rating functionality",
+      "steps": [
+        "Provide feedback",
+        "Verify it is submitted successfully"
+      ],
+      "expected_outcome": "The system allows users to provide feedback and ratings successfully",
+      "notes": "none."
+    },
+    {
+      "test_id": "T_hybrid_20",
+      "requirement_id": "FR10",
+      "scenario": "Verify feedback submission",
+      "steps": [
+        "Submit feedback and ratings",
+        "Verify they are recorded and acknowledged"
+      ],
+      "expected_outcome": "The feedback and ratings are submitted and acknowledged by the system",
+      "notes": "none."
     }
   ]
 }

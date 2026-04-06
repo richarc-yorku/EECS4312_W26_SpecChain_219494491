@@ -1,13 +1,102 @@
-{  "groups": [
+{
+  "groups": [
     {
-      "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "group_id": "G1",
+      "theme": "Recent Technical Issues",
+      "review_ids": [
+        "806",
+        "983",
+        "1111",
+        "1286",
+        "1989",
+        "229",
+        "2538",
+        "3644",
+        "423"
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "app malfunction constantly",
+        "stopped working mandatory upgrade cannot use app anymore",
+        "love app meditation would easily get five recently become unusable crash upon launch"
+      ],
+      "notes": "removed a review id and changed the theme to better reflect the focus on recent changes in reviews"
+    },
+    {
+      "group_id": "G2",
+      "theme": "Payment and Subscription",
+      "review_ids": [
+        "1337",
+        "2504",
+        "3311",
+        "3356",
+        "4061",
+        "4535",
+        "4569",
+        "4634",
+        "709",
+        "3988"
+      ],
+      "example_reviews": [
+        "awful took full payment forty nine ninety nine fourteen day free trial ended still seven hour remaining cancel cancelled refund",
+        "expensive much actually useful content much junk content",
+        "pay quite literally everything",
+        "purchase app company exploiting people trying get traumatic event life app fit purpose refused refund trying less forty eighthrs shame headspace maybe change name app headf k steer well clear app customer service slow respond avoid app sure better apps"
+      ],
+      "notes": "added a relevant example from one of the ids"
+    },
+    {
+      "group_id": "G3",
+      "theme": "Content and Features",
+      "review_ids": [
+        "1411",
+        "4611",
+        "4388",
+        "2162",
+        "3451",
+        "4509",
+        "521",
+        "4470"
+      ],
+      "example_reviews": [
+        "gotten complex year barely find normal tenm meditation andy plus loading time browsing course crazy long",
+        "headspace wonderful job introducing people meditation think little bit dangerous become dependent tool",
+        "simply best easy follow world best attention already oh look shiny key guess still room grow great program step meditation thankful"
+      ],
+      "nots": "removed a few ids"
+    },
+    {
+      "group_id": "G4",
+      "theme": "Customer Service",
+      "review_ids": [
+        "311",
+        "729",
+        "3899"
+      ],
+      "example_reviews": [
+        "app completely terrible venting really see many others left review issue app cutting mid meditation every time contacted customer service everything said still shame",
+        "useless customer service",
+        "scam would give zero star stole card info play store receipt purchase google reporting fraud"
+      ],
+      "notes": "removed unrelated ids"
+    },
+    {
+      "group_id": "G5",
+      "theme": "Positive Experience",
+      "review_ids": [
+        "11",
+        "1766",
+        "2173",
+        "2271",
+        "3734",
+        "4473"
+      ],
+      "example_reviews": [
+        "wonderful magical healing mindset regulator love",
+        "best meditation app ever",
+        "really like app feature would drastically improve quality life able queue create playlist",
+        "app changed life helped find peace absolute wealth knowledge various resource help throughout day"
+      ],
+      "notes": "refactored theme to be generally positive in accordance with examples and removed a few neutral/negative responses"
     }
   ]
 }

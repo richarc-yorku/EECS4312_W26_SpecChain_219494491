@@ -1,31 +1,135 @@
 {
   "personas": [
     {
-      "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
-      "derived_from_group": "H1",
+      "id": "P1",
+      "name": "Frustrated Tech User",
+      "description": "A user who struggles with technical issues",
+      "derived_from_group": "G1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Use the app without technical issues",
+        "Access meditation content"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "App malfunctions",
+        "Crashes upon launch",
+        "recent changes introducing issues"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Tries to use the app for meditation",
+        "Needs to upgrade or update the app"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Limited technical expertise",
+        "Needs to resolve issues quickly"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "806, 983, 1111, 1286, 1989, 229, 2538, 3644, 423"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "added recent changes to pain points, trimmed reviews"
+    },
+    {
+      "id": "P2",
+      "name": "Budget-Conscious User",
+      "description": "A user concerned about payment and subscription",
+      "derived_from_group": "G2",
+      "goals": [
+        "Understand payment terms",
+        "Get value for money"
+      ],
+      "pain_points": [
+        "Unexpected charges",
+        "Difficulty canceling subscription"
+      ],
+      "context": [
+        "Tries to manage subscription",
+        "Compares features and prices"
+      ],
+      "constraints": [
+        "Limited budget",
+        "Wants transparency in billing"
+      ],
+      "evidence_reviews": [
+        "1337, 2504, 3311, 3356, 4061, 4535, 4569, 4634, 709, 3988"
+      ],
+      "notes": "no changes"
+    },
+    {
+      "id": "P3",
+      "name": "Content Seeker",
+      "description": "A user looking for relevant content and features",
+      "derived_from_group": "G3",
+      "goals": [
+        "Find relevant meditation content",
+        "Use features that support meditation"
+      ],
+      "pain_points": [
+        "Difficulty finding content",
+        "Long loading times"
+      ],
+      "context": [
+        "Explores the app's content library",
+        "Seeks features that enhance meditation"
+      ],
+      "constraints": [
+        "Values relevant content",
+        "Wants an engaging user experience"
+      ],
+      "evidence_reviews": [
+        "1411, 4611, 4388, 2162, 3451, 4509, 521, 4470"
+      ],
+      "notes": "removed some ids"
+    },
+    {
+      "id": "P4",
+      "name": "Dissatisfied Customer",
+      "description": "A user with poor customer service experience",
+      "derived_from_group": "G4",
+      "goals": [
+        "Resolve issues with customer service",
+        "Have a positive experience",
+        "transparent payment"
+      ],
+      "pain_points": [
+        "Unhelpful customer service",
+        "Difficulty resolving issues"
+      ],
+      "context": [
+        "Contacts customer service",
+        "Seeks a resolution to problems"
+      ],
+      "constraints": [
+        "Values good customer service",
+        "Wants issues resolved efficiently"
+      ],
+      "evidence_reviews": [
+        "311, 729, 3899"
+      ],
+      "notes": "removed reviews and added a goal"
+    },
+    {
+      "id": "P5",
+      "name": "Engaged User",
+      "description": "A user with a positive general experience",
+      "derived_from_group": "G5",
+      "goals": [
+        "Use the app to improve well-being",
+        "Explore features and content"
+      ],
+      "pain_points": [
+        "None or minimal"
+      ],
+      "context": [
+        "Uses the app regularly",
+        "Recommends the app to others"
+      ],
+      "constraints": [
+        "Values the app's benefits",
+        "Wants to continue using the app"
+      ],
+      "evidence_reviews": [
+        "11, 1766, 2173, 2271, 3734, 4473"
+      ],
+      "notes": "removed ids"
     }
   ]
 }

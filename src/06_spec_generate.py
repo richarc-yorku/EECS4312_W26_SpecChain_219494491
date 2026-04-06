@@ -33,6 +33,7 @@ IMPORTANT:
 - Output ONLY valid Markdown following this template
 - Do NOT include any explanation, preamble, or code blocks
 - Generate 2-3 system requirements per persona
+- Generate at least 10 requirements
 - Requirement ID must be FR plus number (FR1, FR2, ...)
 - Include the following fields for each requirement:
 

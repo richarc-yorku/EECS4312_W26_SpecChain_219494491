@@ -16,7 +16,7 @@
       "scenario_description": "Verify system stability after prolonged use",
       "steps": [
         "Use the system for an extended period",
-        "Monitor for errors or crashes"
+        "Monitor for crashes or malfunctions"
       ],
       "expected_outcome": "The system remains stable and functional after prolonged use"
     },
@@ -25,50 +25,50 @@
       "requirement_id": "FR2",
       "scenario_description": "Verify clear and transparent payment terms",
       "steps": [
-        "Subscribe to the service",
-        "Review payment terms and subscription details"
+        "Navigate to the subscription page",
+        "Review payment terms and billing information"
       ],
-      "expected_outcome": "Payment terms and subscription details are clear and transparent"
+      "expected_outcome": "Payment terms and billing information are clear and easy to understand"
     },
     {
       "test_id": "T4",
       "requirement_id": "FR2",
-      "scenario_description": "Verify no unexpected charges",
+      "scenario_description": "Verify transparent billing and subscription management",
       "steps": [
-        "Monitor account and transaction history",
-        "Verify no unexpected charges"
+        "Subscribe to a plan",
+        "Review subscription details and billing information"
       ],
-      "expected_outcome": "No unexpected charges are found"
+      "expected_outcome": "Subscription details and billing information are transparent and easily accessible"
     },
     {
       "test_id": "T5",
       "requirement_id": "FR3",
       "scenario_description": "Search for meditation content",
       "steps": [
-        "Use the search function",
-        "Verify relevant results are returned"
+        "Navigate to the search function",
+        "Search for specific meditation content"
       ],
-      "expected_outcome": "Relevant meditation content is returned in search results"
+      "expected_outcome": "Relevant meditation content is displayed efficiently"
     },
     {
       "test_id": "T6",
       "requirement_id": "FR3",
-      "scenario_description": "Verify search function handles edge cases",
+      "scenario_description": "Verify search results are relevant",
       "steps": [
-        "Search for obscure or niche topics",
-        "Verify relevant results are returned"
+        "Perform a search query",
+        "Review search results for relevance"
       ],
-      "expected_outcome": "The search function handles edge cases and returns relevant results"
+      "expected_outcome": "Search results are relevant and match the search query"
     },
     {
       "test_id": "T7",
       "requirement_id": "FR4",
-      "scenario_description": "Contact customer service",
+      "scenario_description": "Test customer service responsiveness",
       "steps": [
-        "Reach out to customer service",
-        "Verify a response is received"
+        "Submit a support query",
+        "Verify response time and helpfulness"
       ],
-      "expected_outcome": "Helpful and responsive customer service is provided"
+      "expected_outcome": "Customer service responds promptly and resolves the issue efficiently"
     },
     {
       "test_id": "T8",
@@ -83,102 +83,122 @@
     {
       "test_id": "T9",
       "requirement_id": "FR5",
-      "scenario_description": "Verify engaging user experience",
+      "scenario_description": "Test system loading times",
       "steps": [
-        "Use the system for a period",
-        "Provide feedback on user experience"
+        "Launch the system",
+        "Measure loading times"
       ],
-      "expected_outcome": "The user experience is engaging and motivating"
+      "expected_outcome": "The system loads quickly with minimal loading times"
     },
     {
       "test_id": "T10",
       "requirement_id": "FR5",
-      "scenario_description": "Verify seamless navigation",
+      "scenario_description": "Verify seamless user experience",
       "steps": [
-        "Navigate through the system",
-        "Verify smooth transitions and loading"
+        "Use the system",
+        "Verify smooth navigation and minimal delays"
       ],
-      "expected_outcome": "Navigation is seamless and smooth"
+      "expected_outcome": "The system provides a seamless user experience with minimal loading times"
     },
     {
       "test_id": "T11",
       "requirement_id": "FR6",
-      "scenario_description": "Verify loading times",
+      "scenario_description": "Test subscription cancellation",
       "steps": [
-        "Monitor loading times",
-        "Verify fast loading"
+        "Subscribe to a plan",
+        "Cancel the subscription"
       ],
-      "expected_outcome": "Loading times are minimized and fast"
+      "expected_outcome": "The subscription is cancelled easily and without issues"
     },
     {
       "test_id": "T12",
       "requirement_id": "FR6",
-      "scenario_description": "Verify content loads quickly",
+      "scenario_description": "Verify easy cancellation",
       "steps": [
-        "Access meditation content",
-        "Verify fast loading"
+        "Navigate to account settings",
+        "Cancel subscription"
       ],
-      "expected_outcome": "Meditation content loads quickly"
+      "expected_outcome": "The subscription is cancelled easily and without complications"
     },
     {
       "test_id": "T13",
       "requirement_id": "FR7",
-      "scenario_description": "Cancel subscription",
+      "scenario_description": "Test meditation features",
       "steps": [
-        "Cancel subscription",
-        "Verify cancellation is processed"
+        "Access meditation content",
+        "Verify features enhance the user experience"
       ],
-      "expected_outcome": "The subscription is cancelled easily and efficiently"
+      "expected_outcome": "The system provides features that support meditation and enhance the user experience"
     },
     {
       "test_id": "T14",
       "requirement_id": "FR7",
-      "scenario_description": "Verify no issues with cancellation",
+      "scenario_description": "Verify features support meditation",
       "steps": [
-        "Verify no further charges",
-        "Verify access to content remains"
+        "Use meditation features",
+        "Verify they support meditation and enhance the experience"
       ],
-      "expected_outcome": "Cancellation is processed without issues"
+      "expected_outcome": "The features support meditation and enhance the user experience"
     },
     {
       "test_id": "T15",
       "requirement_id": "FR8",
-      "scenario_description": "Verify meditation features",
+      "scenario_description": "Test multi-device access",
       "steps": [
-        "Access meditation features",
-        "Verify features support meditation"
+        "Access the system on multiple devices",
+        "Verify account and content are accessible"
       ],
-      "expected_outcome": "Features support meditation and well-being goals"
+      "expected_outcome": "The system allows access to account and content across multiple devices"
     },
     {
       "test_id": "T16",
       "requirement_id": "FR8",
-      "scenario_description": "Verify features are helpful",
+      "scenario_description": "Verify account access across devices",
       "steps": [
-        "Use meditation features",
-        "Provide feedback on helpfulness"
+        "Login on one device",
+        "Verify account and content are accessible on another device"
       ],
-      "expected_outcome": "Features are helpful in achieving well-being goals"
+      "expected_outcome": "The account and content are accessible across multiple devices"
     },
     {
       "test_id": "T17",
       "requirement_id": "FR9",
-      "scenario_description": "Verify technical issue resolution",
+      "scenario_description": "Test update information",
       "steps": [
-        "Report a technical issue",
-        "Verify the issue is resolved"
+        "Navigate to the update section",
+        "Verify clear and concise information about updates"
       ],
-      "expected_outcome": "Technical issues are handled efficiently"
+      "expected_outcome": "The system provides clear and concise information about updates and changes"
     },
     {
       "test_id": "T18",
       "requirement_id": "FR9",
-      "scenario_description": "Verify minimal user frustration",
+      "scenario_description": "Verify update information is clear",
       "steps": [
-        "Encounter a technical issue",
-        "Verify frustration is minimized"
+        "Review update information",
+        "Verify it is clear and concise"
       ],
-      "expected_outcome": "User frustration is minimized during technical issues"
+      "expected_outcome": "The update information is clear and concise"
+    },
+    {
+      "test_id": "T19",
+      "requirement_id": "FR10",
+      "scenario_description": "Test feedback and rating functionality",
+      "steps": [
+        "Provide feedback",
+        "Verify it is submitted successfully"
+      ],
+      "expected_outcome": "The system allows users to provide feedback and ratings successfully"
+    },
+    {
+      "test_id": "T20",
+      "requirement_id": "FR10",
+      "scenario_description": "Verify feedback submission",
+      "steps": [
+        "Submit feedback and ratings",
+        "Verify they are recorded and acknowledged"
+      ],
+      "expected_outcome": "The feedback and ratings are submitted and acknowledged by the system"
     }
   ]
 }
